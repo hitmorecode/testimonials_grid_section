@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --primary-moderate-violet: hsl(263, 55%, 52%);
+  --primary-very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --primary-very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --primary-white: hsl(0, 0%, 100%);
+  --neutral-light-gray: hsl(0, 0%, 81%);
+  --neutral-light-gray-blue: hsl(210, 46%, 95%);
+  
+  /* opacity */
+  --opacity-50p: 0.5;
+  --opacity-75p: 0.75;
+  
+  /* font weight */
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  background-color: var(--neutral-light-gray-blue);
+}
+
+.container {
+  max-width: 144rem;
+}
+
+.card {
+  padding: 2.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.clifford {
+  background-color: var(--primary-moderate-violet);
+  width: 54rem;
+  height: 28.2rem;
+  position: relative;
+}
+
+.img-quotation {
+  position: absolute;
+  top: 0;
+  left: 35.6rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.user,
+.graduate {
+  color: var(--primary-white);
+  font-size: 1.3rem;
+  font-weight: var(--font-weight-600);
+}
+
+.graduate {
+  opacity: var(--opacity-50p);
+}
+
+.card-header {
+  font-size: 2rem;
+  color: var(--primary-white);
+  font-weight: var(--font-weight-600);
+  opacity: var(--opacity-75p);
+}
+
+article {
+  font-size: 1.3rem;
+  color: var(--primary-white);
+}
+
+.walters {
+  background-color: var(--primary-very-dark-grayish-blue);
+  width: 25.5rem;
+  height: 28.2rem;
+}
+
+.harmon {
+  background-color: var(--primary-white);
+  width: 25.6rem;
+  height: 26.6rem;
+}
+
+.harmon > article + .card-header + .user + .graduate {
+  color: var(--primary-very-dark-grayish-blue);
+}
