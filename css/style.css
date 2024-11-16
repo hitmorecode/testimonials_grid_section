@@ -90,6 +90,10 @@ body {
   font-weight: var(--font-weight-600);
 }
 
+.user-name {
+  z-index: 1;
+}
+
 .graduate {
   opacity: var(--opacity-50p);
 }
@@ -148,4 +152,40 @@ article {
 .whittle,
 .harmon {
   box-shadow: 3rem 3rem 5rem -1.8rem hsla(0, 0%, 0%, .18);
+}
+
+@media only screen and (max-width: 1110px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    padding: 5.4rem 2.4rem;
+  }
+
+  .clifford {
+    grid-row: 1 / 2;
+  }
+
+  .walters {
+    grid-row: 2 / 3;
+  }
+
+  .harmon {
+    grid-row: 3 / 4;
+  }
+
+  .abram {
+    grid-row: 4 / 5;
+  }
+
+  .whittle {
+    grid-row: 5 / 6;
+  }
+
+  .clifford,
+  .walters,
+  .harmon,
+  .abram,
+  .whittle {
+    grid-column: 1 / 2;
+  }
 }
