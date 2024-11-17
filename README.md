@@ -25,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/screenshot_02.jpg)
+![](./screenshot/screenshot_01.jpg)
 
 
 ### Links
 
-- Solution URL: [HTML Solution](https://github.com/hitmorecode/social_link_profile/blob/main/index.html)
-- Solution URL: [CSS Solution](https://github.com/hitmorecode/social_link_profile/blob/main/css/style.css)
-- Live Site URL: [Live site](https://hitmorecode.github.io/social_link_profile/)
+- Solution URL: [HTML Solution](https://github.com/hitmorecode/testimonials_grid_section/blob/main/index.html)
+- Solution URL: [CSS Solution](https://github.com/hitmorecode/testimonials_grid_section/blob/main/css/style.css)
+- Live Site URL: [Live site](https://hitmorecode.github.io/testimonials_grid_section/)
 
 ## My process
 
